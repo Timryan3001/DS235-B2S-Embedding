@@ -1,0 +1,82 @@
+/* General body styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #083759;
+    /* A deep blue shade for text */
+    background-color: #f0f4f8;
+    /* A soft, light background */
+    margin: 0;
+    padding: 20px;
+}
+
+/* Headings styling */
+h1,
+h2 {
+    color: #0a558c;
+    /* A slightly brighter blue for headings */
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+h1 {
+    margin-bottom: 0.5em;
+}
+
+h2 {
+    margin-bottom: 0.75em;
+    font-size: 1.5em;
+}
+
+/* Paragraph styling */
+p {
+    line-height: 1.6;
+    margin-bottom: 1em;
+}
+
+/* Fieldset & legend styling */
+fieldset {
+    border: 2px solid #0a558c;
+    /* Match the fieldset border with the heading color */
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+legend {
+    color: #0a558c;
+    /* Same as headings for consistency */
+    padding: 0 10px;
+}
+
+/* Input and button styling */
+input[type="button"],
+input[type="number"] {
+    background-color: #0a558c;
+    /* A consistent blue theme for buttons */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="button"]:hover,
+input[type="number"]:hover {
+    background-color: #083759;
+    /* A darker shade for hover effect */
+}
+
+input[type="number"] {
+    padding: 8px;
+}
+
+/* Custom styling for tableau viz */
+.tableau-viz {
+    border: 3px solid #0a558c;
+    /* To make the embedded content stand out */
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
